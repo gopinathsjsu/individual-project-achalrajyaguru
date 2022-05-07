@@ -1,4 +1,4 @@
-package com.inventory;
+package com.billing;
 
 import org.xml.sax.SAXException;
 
@@ -20,7 +20,7 @@ public class Billing
 
         Scanner scan = new Scanner(System.in);
         System.out.println("+++++++++++++++++++++++++++++++++");
-        System.out.println("Paste a file name from ./target: ");
+        System.out.println("Paste a file name: ");
 
         System.out.flush();
 
@@ -30,7 +30,7 @@ public class Billing
         System.out.println("-----------------------------------");
 
 
-        FileOperations fileOperations =new CsvFileOperations();
+        com.billing.FileOperations fileOperations =new com.billing.CsvFileOperations();
      List<List<String>> records = fileOperations.readFile(file);
         System.out.println(" ");
         System.out.println("+++++++++++++++++++++++++++++++++++++++++");

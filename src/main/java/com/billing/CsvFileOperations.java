@@ -1,4 +1,4 @@
-package com.inventory;
+package com.billing;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
