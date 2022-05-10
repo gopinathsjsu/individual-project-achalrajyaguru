@@ -12,6 +12,8 @@
 6) Click the play button on the right side of the screen.
 7) Once the program is running you will be prompted to Enter an Input file name, here you will have to write the name of the input csv file.
 8) I have added 3 CSV files for 3 use cases
+9) Upon successful execution of the project, either output.txt or error.txt will get generated based on the processing of the inputs.
+10)Output.txt/error.txt will get generated in the same project folder.
 
 
 ## Problem Statement
@@ -29,6 +31,6 @@ It is a creational design pattern.It ensures the creation of a single instance o
   
 ### (3) Factory Pattern:
   
-A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class. Class ReaderFactory.java is the implementation of Factory design pattern. Objects of different reader types can be created by the ReaderFactory.getInstance method of ReaderFactory takes readerType as input and returns a new instance of respective reader.
+A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class. 
   
 
