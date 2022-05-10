@@ -31,6 +31,7 @@ The objective of the project is to develop a JAVA application for a user to purc
 
 Strategy pattern is one of the behavioral design patterns. This is mainly used when we have multiple strategies to consider. The input file is processed as an List<List>. The static dataset is stored as a HashMap. The program checks the first strategy which is to check if the given order quantity is permissible or not. If this fails, an Error.txt is generated and the program terminates. If it passes, then it executes another strategy to check the capacity of each item category. If both the strategies are successful, these items are added to the cart and the price of the cart is calculated.
  
+![Untitled Diagram-3](https://user-images.githubusercontent.com/45312477/167546980-a241bc77-8a77-4f8b-96ef-a51c10bd80ca.jpg)
 
   
 ### (2) Singleton Pattern:
