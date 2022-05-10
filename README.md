@@ -19,6 +19,8 @@
 ## Problem Statement
 This is an application where the user has power to purchase items from the store. The application is terminal based and it also maintains a static database.
 
+## Class Diagram
+
 ## Design Patterns
 
 ### (1) Strategy Pattern:
@@ -33,4 +35,7 @@ It is a creational design pattern.It ensures the creation of a single instance o
   
 A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class. 
   
+## Test cases and Screenshots
+
+
 
