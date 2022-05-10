@@ -42,7 +42,8 @@ It is a creational design pattern.It ensures the creation of a single instance o
 ### (3) Factory Pattern:
   
 A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class. 
-  
+  <img width="578" alt="Screen Shot 2022-05-09 at 9 17 56 PM" src="https://user-images.githubusercontent.com/45312477/167541714-762475cb-f863-4852-9ea8-e215fbfaddcd.png">
+
 ## Test cases and Screenshots
 
 # Test Case 1: 
