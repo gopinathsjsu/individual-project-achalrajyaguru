@@ -19,6 +19,16 @@ This is an application where the user has power to purchase items from the store
 
 ## Design Patterns
 
-### 1 Strategy Pattern
+### (1) Strategy Pattern:
 
 Strategy pattern is one of the behavioral design patterns. This is mainly used when we have multiple strategies to consider. The input file is processed as an List<List>. The static dataset is stored as a HashMap. The program checks the first strategy which is to check if the given order quantity is permissible or not. If this fails, an Error.txt is generated and the program terminates. If it passes, then it executes another strategy to check the capacity of each item category. If both the strategies are successful, these items are added to the cart and the price of the cart is calculated.
+  
+### (2) Singleton Pattern:
+  
+It is a creational design pattern.It ensures the creation of a single instance of the class. In this assignment, this pattern is used to validate the credit card. An instance of the class gets created only if the cart is valid. if the card number in the input file does not exist in the static database of cards (which is maintained as an arraylist), this cardnumber gets added to the database.
+  
+### (3) Factory Pattern:
+  
+A Factory Pattern or Factory Method Pattern says that just define an interface or abstract class for creating an object but let the subclasses decide which class to instantiate. In other words, subclasses are responsible to create the instance of the class. Class ReaderFactory.java is the implementation of Factory design pattern. Objects of different reader types can be created by the ReaderFactory.getInstance method of ReaderFactory takes readerType as input and returns a new instance of respective reader.
+  
+
