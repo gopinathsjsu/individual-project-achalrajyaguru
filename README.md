@@ -21,7 +21,8 @@ This is an application where the user has power to purchase items from the store
 
 ## Class Diagram
 
-![class_diagram](https://user-images.githubusercontent.com/45312477/167535742-4e81df7b-187f-4b57-b322-80c1ed4c8473.jpg)
+![Class Diagram0](https://user-images.githubusercontent.com/45312477/167541578-063ceae9-d66d-4689-be01-b59fcf5f90c7.jpg)
+
 
 ## Design Patterns
 
