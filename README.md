@@ -46,13 +46,13 @@ A Factory Pattern or Factory Method Pattern says that just define an interface o
 
 ## Test cases and Screenshots
 
-# Test Case 1: 
+### Test Case 1: 
   <img width="1440" alt="Screen Shot 2022-05-09 at 7 40 57 PM" src="https://user-images.githubusercontent.com/45312477/167532201-827918da-9f10-43eb-8f17-10806097de5c.png">
   
-# Test Case 2:
+### Test Case 2:
   <img width="1440" alt="Screen Shot 2022-05-09 at 7 41 36 PM" src="https://user-images.githubusercontent.com/45312477/167532235-8d316759-e571-473c-89da-f33e2aa57127.png">
   
- # Test Case 3:
+ ### Test Case 3:
   <img width="1440" alt="Screen Shot 2022-05-09 at 7 42 03 PM" src="https://user-images.githubusercontent.com/45312477/167532322-7ff6c699-9cbf-4879-9867-acc76ded5bdd.png">
   
 
