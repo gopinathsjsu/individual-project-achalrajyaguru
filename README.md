@@ -21,6 +21,8 @@ This is an application where the user has power to purchase items from the store
 
 ## Class Diagram
 
+![class_diagram](https://user-images.githubusercontent.com/45312477/167535742-4e81df7b-187f-4b57-b322-80c1ed4c8473.jpg)
+
 ## Design Patterns
 
 
@@ -28,11 +30,13 @@ This is an application where the user has power to purchase items from the store
 
 Strategy pattern is one of the behavioral design patterns. This is mainly used when we have multiple strategies to consider. The input file is processed as an List<List>. The static dataset is stored as a HashMap. The program checks the first strategy which is to check if the given order quantity is permissible or not. If this fails, an Error.txt is generated and the program terminates. If it passes, then it executes another strategy to check the capacity of each item category. If both the strategies are successful, these items are added to the cart and the price of the cart is calculated.
  
-  ![Singleton_Pattern](https://user-images.githubusercontent.com/45312477/167532863-d4d10ec5-0ae8-41b8-b2c5-26bc649dfb25.jpg)
+
   
 ### (2) Singleton Pattern:
   
 It is a creational design pattern.It ensures the creation of a single instance of the class. In this assignment, this pattern is used to validate the credit card. An instance of the class gets created only if the cart is valid. if the card number in the input file does not exist in the static database of cards (which is maintained as an arraylist), this cardnumber gets added to the database.
+ 
+   ![Singleton_Pattern](https://user-images.githubusercontent.com/45312477/167532863-d4d10ec5-0ae8-41b8-b2c5-26bc649dfb25.jpg)
   
 ### (3) Factory Pattern:
   
