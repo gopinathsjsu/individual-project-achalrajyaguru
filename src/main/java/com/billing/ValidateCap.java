@@ -43,18 +43,18 @@ import java.util.Map;
 //         if(essentialCount <=5 && luxuryCount <= 3 && miscCount <= 6){
 //             return capCount;
 //         }
-         if(essentialCount >= 6 ){
+         if(essentialCount == 10 ){
              capCount.add("Cap on Essential is");
              capCount.add(" " + essentialCount);
              capCount.add(". Please check the capacity");
          }
 
-         if(luxuryCount >= 4){
+         if(luxuryCount == 10){
              capCount.add("Cap on Luxury is");
              capCount.add(" "+ luxuryCount);
              capCount.add(". Please check the capacity");
          }
-         if(miscCount >= 7){
+         if(miscCount == 10){
              capCount.add("Cap on Misc is");
              capCount.add(" "+ miscCount);
              capCount.add(". Please check the capacity");

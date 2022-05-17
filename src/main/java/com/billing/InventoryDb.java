@@ -9,22 +9,21 @@ public class InventoryDb{
 
     public HashMap<String,Categories> stockDb(){
         HashMap<String,Categories> Items = new HashMap<>();
-        Items.put("Milk",new Categories("Essential","6","4.72"));
-        Items.put("Bread",new Categories("Essential","8","2.98"));
-        Items.put("Oil",new Categories("Essential","2","8.5"));
-        Items.put("Cotton",new Categories("Essential","4","11.2"));
-        Items.put("Apples",new Categories("Essential","8","1"));
-        Items.put("Chocolates",new Categories("Luxury","12","3"));
-        Items.put("Honey",new Categories("Luxury","4","4.2"));
-        Items.put("Cereal",new Categories("Luxury","6","6.34"));
-        Items.put("Soap",new Categories("Luxury","5","5"));
-        Items.put("Detergent",new Categories("Luxury","8","3"));
-        Items.put("Paint",new Categories("Luxury","5","7"));
-        Items.put("Pillow",new Categories("Misc","10","6.76"));
-        Items.put("Sheets",new Categories("Misc","13","11.43"));
-        Items.put("Blanket",new Categories("Misc","12","45.5"));
-        Items.put("Television",new Categories("Misc","5","1100.54"));
-        Items.put("Map",new Categories("Misc","2","2.92"));
+        Items.put("Clothes",new Categories("Essential","100","20"));
+        Items.put("Soap",new Categories("Essential","200","5"));
+        Items.put("Shampoo",new Categories("Essential","200","10"));
+        Items.put("Milk",new Categories("Essential","100","20"));
+        Items.put("Perfume",new Categories("Luxury","50","50"));
+        Items.put("Chocolates",new Categories("Luxury","300","3"));
+        Items.put("Handbag",new Categories("Luxury","75","150"));
+        Items.put("Wallet",new Categories("Luxury","100","100"));
+        Items.put("Bedsheet",new Categories("Misc","150","75"));
+        Items.put("Footware",new Categories("Misc","200","25"));
+        Items.put("HomeDecorPiece",new Categories("Misc","100","40"));
+        Items.put("pen",new Categories("Misc","400","3"));
+        Items.put("pencil",new Categories("Misc","400","3"));
+        
+
         return  Items;
     }
 
